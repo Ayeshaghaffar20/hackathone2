@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family:"Roboto-black";
+    src: url("assets/font/Roboto-Black.ttf");
+}
+@font-face {
+    font-family:"Roboto-light";
+    src: url("assets/font/Roboto-Light.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    display: none;
+}
+
+.right-section img{
+    height: 550px;
+    margin-left: 20%;
+
+
+}
+
+.hero-section{
+    display: flex;
+}
+
+
+.left-section{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.left-section h4{
+    font-family:"Roboto-black";
+    font-size: 42px;
+    line-height: 52px;
+    max-width: 438px;
+
+}
+
+.left-section p{
+    max-width: 438px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:"Roboto-light";
+    color: #9A9EA5;
+    line-height: 26px;
+    margin-top: 3.5rem;
+
+}
+
+.h-btn{
+    padding: 10px 35px;
+    background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
+   border: none;
+   cursor: pointer;
+   border-radius: 30px;
+   margin-top: 2rem;
+    font-family:"Roboto-light";
+    font-weight: 600;
+   
+}
+
+@media screen and (max-width:992px) {
+
+    .nav-item{
+        display: block;
+    }
+    .right-section img{
+        margin-top: 10%;
+        margin-left: 0px;
+        width: 400x;
+        height: 400px;
+    }
+
+    .left-section h4{
+        font-size: 35px;
+         line-height: 30px;
+
+    }
+
+    .left-section p{
+        margin-top: 1.8rem;
+    }
+
+    .left-section{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        margin-left: 0px !important;
+    }
+
+    .left-section *{
+        text-align: center !important;
+        
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width:769px) {
+    .right-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-section img{
+        height: 500;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .left-section h4{
+        font-size: 30px;
+    }
+
+
+    
+}
