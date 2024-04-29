@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap.css">
     <script src="bootstrap.js"></script>
     <link rel="icon" href="assets/images/SiteLogo.png">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -49,7 +50,10 @@
 <section class="container-fluid">
     <div class="row hero-section">
         <div class="col-12 col-md-6">
-            <div class="left-section">
+            <div class="left-section"   data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
                 <h4>Everything You Need to Open a Successful Ecommerce Store</h4>
                 <p>Shoppers spend more than $26 billion and placed over 185 Million orders on SiteName ecommerce website </p>
                 <div class="btn">
@@ -66,6 +70,11 @@
     </div>
 </section>
 
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     
 </body>
 </html>
